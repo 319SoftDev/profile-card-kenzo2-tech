@@ -32,6 +32,7 @@ body{
       background-color: rgb(109, 12, 101);
       border-radius: 40px;
       margin-top: 10%;
+      box-shadow: 5px 5px 10px 1px rgb(42, 1, 50)
     }
 
 .pfp{
