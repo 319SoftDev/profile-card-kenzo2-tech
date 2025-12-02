@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(26, 128, 153);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+      width: 430px;
+      height: 590px;
+      perspective: 1000px;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.8s;
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(109, 12, 101);
+      border-radius: 40px;
+      margin-top: 10%;
+    }
+
+.pfp{
+    position: absolute;
+    width: 180px;
+    height: 195px;
+    top: 110px;
+    border-radius: 50%;
+}
+
+.idk{
+     background-color: rgb(232, 201, 247);
+    position: absolute;
+    width: 432px;
+    height: 220px;
+    border-radius: 40px;
+    top: -1px;
+
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    top: 250px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 20px;
+    top: 50%;
+}
+
+.info{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 64%;
+    left:20px ;
+    font-size: 12px;
+}
+
+.para{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 70%;
+    text-align: center;
+}
+
+    .card-back {
+      transform: rotateY(180deg);
+      background-color: rgb(109, 12, 101);
+    }
+
+    .card-container:hover .card {
+      transform: rotateY(180deg);
+    }
+
+    h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 8%;
+    text-align: center;
+    }
+
+    ul{
+        position: absolute;
+        list-style-type: none;
+        line-height:50px;
+        left: 35px;
+        font-weight: 600;
+
+    }
+
+    a:link{
+      color: rgb(252, 252, 252);
+    }
+    a:hover{
+      color: rgb(190, 255, 255);
+    }
+    a:visited{
+      color: rgb(255, 203, 203);
+    }
+
+  #mail{
+    position: absolute;
+    width:35px;
+    left: 30px;
+    top: 225px;
+  }
+
+  #phone{
+    position: absolute;
+    width:33px;
+    left: 30px;
+    top: 280px;
+  }
+
+  #work{
+    position: absolute;
+    width:35px;
+    left: 30px;
+    top: 331px;
+  }
+
+  .circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(232, 201, 247);
+    left: 27.5px;
+    top: 222px;
+  }
+
+  .circle1{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(232, 201, 247);
+    left: 27.5px;
+    top:277px ;
+  }
+
+  .circle2{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(232, 201, 247);
+    left: 27.5px;
+    top: 327px;
+  }
